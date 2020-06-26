@@ -20,6 +20,7 @@
   "homepage": "https://github.com/cmayornavarro/nodejsFundamentals#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "mongoose": "^5.9.20",
     "nodemon": "^2.0.4"
   },
   "devDependencies": {
@@ -27,14 +28,15 @@
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.21.2"
   },
-  "nodemonConfig":{
+  "nodemonConfig": {
     "restartable": "rs",
-    "ignore":[ "node_modules/**/node_modules"],
+    "ignore": [
+      "node_modules/**/node_modules"
+    ],
     "delay": "2500",
     "env": {
       "NODE_ENV": "development",
       "PORT": 4000
     }
-
   }
 }
